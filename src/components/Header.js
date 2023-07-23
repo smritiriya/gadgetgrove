@@ -11,7 +11,7 @@ const Header = () => {
         <img src={logo} alt="my logo img" style={{width:"40px",height:"40px"}}/>   GadgetGrove
       </NavLink>
       <Nav />
-    </MainHeader> 
+    </MainHeader>   
   ); 
 };
 

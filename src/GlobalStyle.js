@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  overflow-x: hidden;
-   scrollbar-color: rgb(98 84 243);
-    scrollbar-width: thin;
+    overflow-x: hidden;
+    scrollbar-color: rgb(98 84 243);
+         scrollbar-width: thin;
 }
 
 body::-webkit-scrollbar {
@@ -154,7 +154,7 @@ input, textarea{
     text-transform: uppercase;
     font-size: 1.8rem;
     cursor: pointer;
-    }
+  }
 
 @media (max-width: ${({ theme }) => theme.media.tab}) {
     .container {
@@ -166,7 +166,7 @@ input, textarea{
    @media (max-width: ${({ theme }) => theme.media.mobile}) {
        html {
       font-size: 50%;
-    }
+  }
 
 .grid{
   gap: 3.2rem;

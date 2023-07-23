@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { FiShoppingCart } from "react-icons/fi";
 import { CgMenu, CgClose } from "react-icons/cg";
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 
 const Nav = () => {
   const [menuIcon, setMenuIcon] = useState();
-  const { loginWithRedirect } = useAuth0();
+  // const { loginWithRedirect } = useAuth0();
 
   const Nav = styled.nav`
     .navbar-lists {
@@ -169,7 +169,7 @@ const Nav = () => {
         <ul className="navbar-lists">
           <li>
             <NavLink
-              to="/"
+              to="/" 
               className="navbar-link "
               onClick={() => setMenuIcon(false)}
             >
@@ -204,12 +204,12 @@ const Nav = () => {
             </NavLink>
           </li>
           <li>
-            <button
+            {/* <button
               onClick={() => loginWithRedirect()}
               style={{ backgroundColor: "rgb(225, 240, 245)",border:"none" }}
             >
               Log In
-            </button>
+            </button> */}
           </li>
           <li>
             <NavLink to="/cart" className="navbar-link cart-trolley--link">
@@ -218,7 +218,6 @@ const Nav = () => {
             </NavLink>
           </li>
         </ul>
-
         {/* two button for open and close of menu */}
         <div className="mobile-navbar-btn">
           <CgMenu
