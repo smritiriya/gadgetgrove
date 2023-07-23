@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gadgetgrove/static/css/main.e6c13ad2.css",
+    "main.js": "/gadgetgrove/static/js/main.f8567e97.js",
+    "static/js/787.34115356.chunk.js": "/gadgetgrove/static/js/787.34115356.chunk.js",
+    "static/media/brand1.png": "/gadgetgrove/static/media/brand1.3f9fac2db447ed746a05.png",
+    "static/media/hero.jpg": "/gadgetgrove/static/media/hero.d4c6c6ebddbdb2f338a4.jpg",
+    "static/media/logo.png": "/gadgetgrove/static/media/logo.e7d13a7460da3e4302fb.png",
+    "index.html": "/gadgetgrove/index.html",
+    "main.e6c13ad2.css.map": "/gadgetgrove/static/css/main.e6c13ad2.css.map",
+    "main.f8567e97.js.map": "/gadgetgrove/static/js/main.f8567e97.js.map",
+    "787.34115356.chunk.js.map": "/gadgetgrove/static/js/787.34115356.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.f8567e97.js"
+  ]
+}
